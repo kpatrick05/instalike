@@ -39,3 +39,4 @@ Route::patch('/profile/{user}', [App\Http\Controllers\ProfilesController::class,
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/users', [App\Http\Controllers\HomeController::class, 'showUsers'])->name('users');

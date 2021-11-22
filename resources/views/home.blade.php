@@ -2,8 +2,10 @@
 
 @section('content')
 <div class="container">
+
+
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
@@ -20,4 +22,6 @@
         </div>
     </div>
 </div>
+
+
 @endsection
